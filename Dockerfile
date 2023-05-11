@@ -1,6 +1,6 @@
 FROM heroku/heroku:22-build
 
-ARG VERSION=1.2.31
+ARG VERSION=1.2.37
 
 COPY ./xmlsec1-${VERSION}.sig ./
 
